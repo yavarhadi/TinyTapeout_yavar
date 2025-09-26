@@ -3,7 +3,7 @@
 `ifndef __COUNTER__
 `define __COUNTER__
 
-module counter #(
+module tt_um_counter #(
     parameter integer BW = 8
 ) (
     input  wire          clk_i,
