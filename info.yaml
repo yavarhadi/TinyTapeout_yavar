@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "counter"      # Project title
+  title:        "tt_um_counter"      # Project title
   author:       "yavar"      # Your name
   discord:      "yvr"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "test"      # One line description of what your project does
