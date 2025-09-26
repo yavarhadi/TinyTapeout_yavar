@@ -4,7 +4,7 @@
 `include "src/tt_um_counter.v"
 =======
 >>>>>>> d25bfd5 (tb.v update)
-module tb_counter;
+module counter_tb;
   localparam integer BW =3;
 
   reg                   clk;
@@ -46,7 +46,7 @@ module tb_counter;
 
 
    // Replace tt_um_example with your module name:
-  tt_um_counter (
+  tt_um_counter user_project(
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
