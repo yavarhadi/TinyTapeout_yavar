@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 `default_nettype none
-`include "tt_um_counter.v"
+`include "src/tt_um_counter.v"
 module tb_counter;
   localparam integer BW =3;
 
