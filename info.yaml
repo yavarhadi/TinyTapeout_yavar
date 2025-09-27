@@ -23,25 +23,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "in00"
-  ui[1]: "in01"
-  ui[2]: "in02"
-  ui[3]: "in03"
-  ui[4]: "in04"
-  ui[5]: "in05"
-  ui[6]: "in06"
-  ui[7]: "in07"
-
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
+    - not used
   # Outputs
-  uo[0]: "out00"
-  uo[1]: "0ut01"
-  uo[2]: "0ut02"
-  uo[3]: "out03"
-  uo[4]: "out04"
-  uo[5]: "out05"
-  uo[6]: "out06"
-  uo[7]: "out07"
-
+    - count value (LSB)
+    - count value
+    - count value
+    - count value (MSB)
+    - not used
+    - not used
+    - not used
+    - not used
   # Bidirectional pins
   uio[0]: ""
   uio[1]: ""
