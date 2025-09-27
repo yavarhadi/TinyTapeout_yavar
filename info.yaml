@@ -26,7 +26,7 @@
 
  documentation:
 
-   title:        "tt_um_yavar_counter"      # Project title
+   title:        "simple counter"      # Project title
    author:       "pretl"      # Your name
    description:  "test"      # One line description of what your project does
    language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
