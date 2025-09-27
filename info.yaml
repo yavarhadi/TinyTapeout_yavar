@@ -21,12 +21,12 @@ project:
 
 
       # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: |
+      ##how_it_works: |
       Is is really just a simple 4b binary counter, starting from 0 (after reset) and counting up on
       positive clk edge.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  how_to_test:  |
+      ##how_to_test:  |
       After reset, the counter should increase by one with input clock.
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
