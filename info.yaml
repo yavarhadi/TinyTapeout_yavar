@@ -16,7 +16,6 @@
  
   source_files:
      - "tt_um_yavar_counter.v"
- yaml_version: 6
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
@@ -24,7 +23,6 @@
   
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 
- documentation:
    author:       "pretl"      # Your name
    title:        "simple counter"      # Project title
    description:  "test"      # One line description of what your project does
@@ -44,6 +42,7 @@
       
    # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
    # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
+ yaml_version: 6
 
  pinout:
    # inputs:
