@@ -25,7 +25,7 @@
     clock_hz:     10000000       # Clock frequency in Hz (if required)
     picture:      ""      # relative path to a picture in your repository (must be 512kb or less)
 
- yaml_version: 6
+  yaml_version: 6
 
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
