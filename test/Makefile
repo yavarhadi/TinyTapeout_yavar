@@ -4,19 +4,16 @@
 # defaults
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
-SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = tt_um_counter.v
-
+SRC_DIR:= ../src
+# normal simulation
 ifneq ($(GATES),yes)
 
-# RTL simulation:
-SIM_BUILD				= sim_build/rtl
-VERILOG_SOURCES += $(addprefix $(SRC_DIR)/,$(PROJECT_SOURCES))
+# this is the only part you should need to modify:
+VERILOG_SOURCES += $(PWD)/tb.v $(SRC_DIR)/tt_um_yavar_counter.v
 
 else
 
-# Gate level simulation:
-SIM_BUILD				= sim_build/gl
+# gate level simulation requires some extra setup, you shouldn't need to touch this
 COMPILE_ARGS    += -DGL_TEST
 COMPILE_ARGS    += -DFUNCTIONAL
 COMPILE_ARGS    += -DUSE_POWER_PINS
@@ -26,19 +23,14 @@ VERILOG_SOURCES += $(PDK_ROOT)/sky130A/libs.ref/sky130_fd_sc_hd/verilog/primitiv
 VERILOG_SOURCES += $(PDK_ROOT)/sky130A/libs.ref/sky130_fd_sc_hd/verilog/sky130_fd_sc_hd.v
 
 # this gets copied in by the GDS action workflow
-VERILOG_SOURCES += $(PWD)/gate_level_netlist.v
-
+VERILOG_SOURCES += $(PWD)/tb.v $(PWD)/gate_level_netlist.v
 endif
 
-# Allow sharing configuration between design and testbench via `include`:
-COMPILE_ARGS 		+= -I$(SRC_DIR)
+# TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
+TOPLEVEL = tb
 
-# Include the testbench sources:
-VERILOG_SOURCES += $(PWD)/counter_tb.v
-TOPLEVEL = counter_tb
-
-# List test modules to run, separated by commas and without the .py suffix:
-COCOTB_TEST_MODULES = test
+# MODULE is the basename of the Python test file
+MODULE = test
 
 # include cocotb's make rules to take care of the simulator setup
 include $(shell cocotb-config --makefiles)/Makefile.sim
