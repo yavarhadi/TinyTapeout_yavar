@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works--> asimple counter
+Explain how your project works--> just simple 4b counter
 
 ## How to test
 
