@@ -21,12 +21,12 @@
 
 
       # Longer description of how the project works. You can use standard markdown format.
-   how_it_works: |
+ how_it_works: |
      This is a 4-bit synchronous counter.
      After reset (rst_n=0) it starts at 0. On each rising edge of clk,
      when ena=1, it increments by 1. uo_out[3:0] shows the count; uo_out[7:4] are 0.
    # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-   how_to_test: |
+ how_to_test: |
      1) Hold rst_n=0, then set rst_n=1 to release reset.
      2) Keep ena=1 and apply a clock on clk.
      3) Observe uo_out[3:0] incrementing each cycle (wraps at 15->0).
