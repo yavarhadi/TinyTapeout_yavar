@@ -56,17 +56,17 @@
     - not used
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
-    - not used
-    - not used
-    - not used
-    - not used
-    - not used
-    - not used
-    - not used
-    - not used
+     uio[0]: ""
+     uio[1]: ""
+     uio[2]: ""
+     uio[3]: ""
+     uio[4]: ""
+     uio[5]: ""
+     uio[6]: ""
+     uio[7]: "" 
 
 # The following fields are optional
-    tag:          "counter"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+    tag:     "counter"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
    external_hw:  ""      # Describe any external hardware needed
    discord:      "pretl"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
    doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
