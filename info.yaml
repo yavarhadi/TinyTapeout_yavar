@@ -25,9 +25,8 @@
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 
  documentation:
-
-   title:        "simple counter"      # Project title
    author:       "pretl"      # Your name
+   title:        "simple counter"      # Project title
    description:  "test"      # One line description of what your project does
    language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
 
