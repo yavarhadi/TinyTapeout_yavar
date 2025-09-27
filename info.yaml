@@ -13,11 +13,11 @@ project:
   tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 8x2
 
 # Keep a track of the submission yaml
-yaml_version: 6
   author:       "yavarhadi"      # Your name
   title:        "Simple 4b counter"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "Just 4b counter with clk and reset."      # Short description of what y    our project does
+yaml_version: 6
 
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
