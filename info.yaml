@@ -14,17 +14,16 @@ project:
 
 # Keep a track of the submission yaml
 yaml_version: 6
+  author:       "Pretl"      # Your name
+  title:        "Simple 4b counter"      # Project title
+  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  description:  "Just 4b counter with clk and reset."      # Short description of what y    our project does
 
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
-documentation: 
-  author:       "Pretl"      # Your name
-  title:        "Simple 4b counter"      # Project title
-  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "Just 4b counter with clk and reset."      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
