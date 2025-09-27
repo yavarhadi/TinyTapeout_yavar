@@ -1,5 +1,5 @@
 # Tiny Tapeout project information
-project:
+  project:
   title:        "tt_um_yavar_counter"      # Project title
   author:       "pretl"      # Your name
   discord:      "yvr"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
@@ -35,7 +35,7 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 
- pinout:
+  pinout:
   inputs:
     ui[0]: ""
     ui[1]: ""
