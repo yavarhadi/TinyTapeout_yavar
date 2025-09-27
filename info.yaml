@@ -14,7 +14,7 @@ project:
 
 # Keep a track of the submission yaml
 yaml_version: 6
-  author:       "Pretl"      # Your name
+  author:       "yavarhadi"      # Your name
   title:        "Simple 4b counter"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "Just 4b counter with clk and reset."      # Short description of what y    our project does
