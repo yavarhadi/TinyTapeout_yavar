@@ -16,7 +16,7 @@
  
   source_files:
      - "tt_um_yavar_counter.v"
-yaml_version: 6
+ yaml_version: 6
 
 # As everyone will have access to all designs, try to make it easy for someone new to your design to know what
 # it does and how to operate it. This info will be automatically collected and used to make a datasheet for the chip.
