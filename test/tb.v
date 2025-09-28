@@ -2,7 +2,7 @@
 `timescale 1ns/1ps
 
 /*
-this testbench just instantiates the module and makes some convenient wires
+this testbench just just instantiates the module and makes some convenient wires
 that can be driven / tested by the cocotb test.py
 */
 
